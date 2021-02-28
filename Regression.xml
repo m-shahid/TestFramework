@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<groups>
+		<run>
+			<include name = "Regression" ></include>
+		</run>
+	</groups>
+	<test name="RegressionTest">
+		<classes>
+			<class name="com.bhiman.test.BaseTest" />
+			<class name="com.bhiman.test.masters.BanksTest" />
+			<class name="com.bhiman.test.masters.UsersTest" />
+			<!-- <class name="com.bhiman.test.masters.BranchesTest"/> -->
+			<!-- <class name="com.bhiman.test.masters.CustomersTest"/> -->
+			<class name="com.bhiman.test.masters.BrokersTest" />
+			<!-- <class name="com.bhiman.test.masters.VendorsTest"/> -->
+			<class name="com.bhiman.test.masters.EnquiryTests" />
+			<!-- <class name="com.bhiman.test.masters.ProjectsTests"/> -->
+			<!-- <class name="com.bhiman.test.setup.RolesTest"/> -->
+			
+		</classes>
+	</test> <!-- MastersTest -->
+</suite> <!-- Suite -->

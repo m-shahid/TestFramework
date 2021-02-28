@@ -1,0 +1,20 @@
+Root Directory Path
+POM -- Page Configure Error
+
+
+
+
+/*
+DatePicker
+*/
+
+// WindowSwitch or window Handle
+/*
+ ScrollVerticalBar
+	JavascriptExecutor jse = (JavascriptExecutor) Constant.driver;
+//////jse.executeAsyncScript("window.scrollBy(0,1500)");
+////jse.executeAsyncScript("window.scrollBy(0,1500)");
+//jse.executeScript("window.scrollTo(0, document.body.scrollHeight)");
+
+  WebElement Element = Constant.driver.findElement(By.cssSelector("#resume"));
+   jse.executeScript("arguments[0].scrollIntoView();", Element);

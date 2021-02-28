@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="MastersTest(failed)">
+    <classes>
+      <class name="com.bhiman.test.masters.BanksTest">
+        <methods>
+          <include name="verifyClickOnEditIcon"/>
+          <include name="verifyClickOnDeleteIconAndClickOKOnAlert"/>
+          <include name="setUp"/>
+          <include name="verifyClickOnViewBankButton"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.bhiman.test.masters.BanksTest -->
+      <class name="com.bhiman.test.masters.EnquiryTests">
+        <methods>
+          <include name="setUp"/>
+          <include name="tc_invalid01"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.bhiman.test.masters.EnquiryTests -->
+    </classes>
+  </test> <!-- MastersTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
